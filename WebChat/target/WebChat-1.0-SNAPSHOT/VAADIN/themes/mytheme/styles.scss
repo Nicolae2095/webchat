@@ -1,0 +1,37 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+
+
+.my-theme1  {
+
+ word-wrap: break-word;
+  overflow: auto;
+
+
+ }
+
+
+
+.button-chat .v-button { 
+ 
+}
+
+.button-chat .v-button [width-range~="0-600px"] { 
+ 	height: 59px;
+	padding: 0 26px;
+	
+	
+	font-size: 26px;
+	
+	border-radius: 4px;
+
+}
+
+}
